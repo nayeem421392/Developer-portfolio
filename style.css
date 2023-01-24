@@ -8,17 +8,23 @@ h1{
     color: orange;
     
 }
-section{
+
+h2{
+    font-size:40px;
+}
+
+
+.flexible-container{
     display: flex;
     margin-bottom: 200px;
 }
 .half-width{
-    width: 60%;
+    width: 500%;
     padding-left: 3%;
     padding-right: 6%;
+    
 }
 .half-width img{
-    width: 120%;
     margin-top: 30px;
 }
 
@@ -36,4 +42,23 @@ p{
     margin-right: 30px;
 }
 
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 4%;
+    margin-right: 6%;
+    padding-left: 20px;
+}
 
+#full-stack-developer{
+    border-left: 7px solid tomato;
+}
+
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+
+footer p{
+    text-align: center;
+}
